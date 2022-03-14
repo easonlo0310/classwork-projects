@@ -1,0 +1,10 @@
+print("insert the four numbers you wish to compare：　")
+a = input ()
+b = input ()
+c = input ()
+d = input ()
+
+alist = list((a, b,c, d))
+alist.sort()  
+print ("the smallest integer is ")
+print (alist[0]) 
